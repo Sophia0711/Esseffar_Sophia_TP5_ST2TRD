@@ -1,0 +1,59 @@
+Part 1 : Questions 
+----------------------------------------------------------------------------------
+
+1.What is this code about?
+
+It is about items that are supposed to be sold.
+Each item has a name, quality and number of days left to sell the item.
+
+GildedRose class is composed of a list of items and a method which update
+the quality number of each item.
+
+ApprovalTest and GildedRoseTest are unit tests that check the outputs.
+---------------------------------------------------------------------------------
+
+2.Can you clearly identify the name of all the goods stored in the Guilded Rose?
+
+"+5 Dexterity Vest"
+"Aged Brie"
+"Elixir of the Mongoose"
+"Sulfuras, Hand of Ragnaros"
+"Sulfuras, Hand of Ragnaros"
+"Backstage passes to a TAFKAL80ETC concert"
+"Backstage passes to a TAFKAL80ETC concert"
+"Backstage passes to a TAFKAL80ETC concert"
+"Conjured Mana Cake"
+----------------------------------------------------------------------------------
+
+3.What happens when the day is over?
+
+SellIn got int--
+
+Quality got int-- except for Aged Brie and Backstage
+Age Brie quality got +1
+Backstage quality got +1, +2 or +3 depending on the SellIn int
+Sulfuras quality stays the same
+----------------------------------------------------------------------------------
+
+4.What happens to cheese when the day is over?
+
+SellIn has -1
+Quality got +1
+Considering that cheese is Aged Brie
+----------------------------------------------------------------------------------
+
+5.What happens when a concert ticket goes over its expiration day?
+
+The item quality equals 0.
+----------------------------------------------------------------------------------
+
+6.What makes this code hard to read?
+
+A lot of If/Else and the similarity of each loop make the code hard to read.
+
+----------------------------------------------------------------------------------
+
+7.Do you think the rules are clear enough so that you could rework the entire solution
+from scratch?
+
+Of course ;)
